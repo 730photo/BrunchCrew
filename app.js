@@ -6,8 +6,8 @@ var logger = require('morgan');
 const mongoose = require('mongoose')
 
 
-var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var indexRouter = require('./FanFinder/routes');
+var usersRouter = require('./FanFinder/routes/users');
 
 var app = express();
 
