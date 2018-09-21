@@ -19,7 +19,7 @@ const game = new Games({
 const tacoMac = new Venues({
     name: 'Taco Mac',
     address: '983 Peachtree St. NE',
-    number: 6789047211,
+    phone: 6789047211,
     dtsa: true,
     games: [game]
 })
