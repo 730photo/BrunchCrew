@@ -1,0 +1,13 @@
+<h1>Venues</h1>
+
+<div>
+  {{#each venue}}
+  <div>Name: {{this.name}} <a href='/venues/{{this._id}}'>Go to games playing</a></div>
+  <div> address{{this.address}}</div>
+  <div>Phone {{this.phone}}</div>
+  <div>DTSA {{this.dtsa}}</div>
+  <div><a href='/users/new'>( new )</a></div>
+
+  {{/each}}
+</div>
+

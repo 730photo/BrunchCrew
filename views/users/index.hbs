@@ -1,7 +1,11 @@
-<h1>List Users <a href='/users/index'>( new )</a></h1>
+<h1>List Users</h1>
 
 <div>
   {{#each users}}
-  <div>{{this.name}} <a href='/users/{{this._id}}'>Go to user</a></div>
+  <div>Name: {{this.name}} <a href='/users/{{this._id}}'>Edit</a></div>
+  <div>Age: {{this.age}}</div>
+  <div>City: {{this.city}}</div>
+  <div><a href='/users/new'>( new )</a></div>
+
   {{/each}}
 </div>
