@@ -8,10 +8,34 @@ const UserSchema = new Schema({
     Team: String
 })
 
+const VenuesSchema = new Schema({
+    name: String,
+    adress: String,
+    city: String, 
+    DTSA: Boolean
+})
 
-const UserModel = mongoose.model('user', UserSchema)
+const VenuesSchema = new Schema({
+    name: String,
+    adress: String,
+    Phone: Number,
+    DTSA: Boolean
+})
+
+const GamesSchema = new Schema({
+    List: Array,
+    Speaker: Boolean
+})
+
+
+
+const UserModel = mongoose.model('User', UserSchema)
+const VenuesModel = mongoose.model('Venues', VenuesSchema)
+const GamesModel = mongoose.model('Games', GamesSchema)
 
 
 module.exports = {
-    User: UserModel
+    User: UserModel,
+    Venues: VenuesModel,
+    Games: GamesModel
 }

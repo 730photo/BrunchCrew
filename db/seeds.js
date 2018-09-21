@@ -1,5 +1,37 @@
 require('dotenv').config()
 const mongoose = require('mongoose')
-mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true })
+mongoose.connect(process.env.MONGODB_URI, {
+    useNewUrlParser: true
+})
 
 const Schema = require('./schema')
+
+const { User } = Schema
+const { Venues } = Schema
+
+
+const reg = new User({
+    name: 'Reg',
+    age: 26,
+    city: 'Atlanta'
+})
+
+const Venues = new Venues({
+    name: 'Taco Mac',
+    address: 983 Peachtree St. NE,
+    number: 6789047211,
+    dtsa: true
+})
+
+const Games = new Games({
+    List: [Falcons/Saints],
+    speaker: true
+})
+
+
+reg.save()
+    .then(() => {
+        console.log('finished')
+        mongoose.connection.close()
+    })
+
