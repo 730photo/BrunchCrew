@@ -8,7 +8,7 @@ const GamesSchema = new Schema({
 
 const VenuesSchema = new Schema({
     name: String,
-    adress: String,
+    address: String,
     Phone: Number,
     dtsa: Boolean,
     games: [GamesSchema]

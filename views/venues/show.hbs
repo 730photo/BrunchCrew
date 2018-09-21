@@ -1,0 +1,13 @@
+<h1>List Venues</h1>
+
+<div>Name: {{this.name}}</div>
+<div>Adress: {{this.adress}}</div>
+<div>number: {{this.number}}</div>
+<div>dtsa: {{this.dtsa}}</div>
+
+<form action='/users/{{user.id}}?_method=' method='POST'>
+    <input type='submit' value='Delete User'>
+</form>
+
+
+<a href='/users'/{{user.id}}>Edit</a>
