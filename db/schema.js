@@ -1,30 +1,25 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-const UserSchema = new Schema({
-    name: String,
-    age: Number,
-    city: String, 
-    Team: String
-})
-
-const VenuesSchema = new Schema({
-    name: String,
-    adress: String,
-    city: String, 
-    DTSA: Boolean
+const GamesSchema = new Schema({
+    list: Array,
+    speaker: Boolean
 })
 
 const VenuesSchema = new Schema({
     name: String,
     adress: String,
     Phone: Number,
-    DTSA: Boolean
+    dtsa: Boolean,
+    games: [GamesSchema]
 })
 
-const GamesSchema = new Schema({
-    List: Array,
-    Speaker: Boolean
+const UserSchema = new Schema({
+    name: String,
+    age: Number,
+    city: String, 
+    team: String,
+    venues: [VenuesSchema]
 })
 
 
