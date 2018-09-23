@@ -28,6 +28,7 @@ const reg = new User({
     name: 'Reg',
     age: 26,
     city: 'Atlanta',
+    Team: AtlantaFalcons,
     venues: [tacoMac]
 })
 
