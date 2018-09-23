@@ -9,8 +9,6 @@ router.get('/', (req, res) => {
         res.render('users/index', {
             users
         })
-        //res.send('users/index', { users })
-        //res.render('users/index', { users })
     })
  })
 
