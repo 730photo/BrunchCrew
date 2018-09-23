@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router({
   mergeParams: true
 });
-const { Venues } = require('../db/schema')
+const { User } = require('../db/schema')
 
 // INDEX, SHOW ALL
 router.get('/', (req, res) => {
