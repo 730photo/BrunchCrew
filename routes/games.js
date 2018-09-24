@@ -2,16 +2,19 @@ var express = require('express');
 var router = express.Router({
   mergeParams: true
 });
-const { Games } = require('../db/schema')
+const { User } = require('../db/schema')
 
 
 // INDEX, SHOW ALL
 router.get('/', (req, res) => {
+  console.log('INDEX', req.params.userId)
   User.findById(req.params.userId)
     .then((user) => {
-      const games = user.venues
+      const venue = user.venues.id(req.params.venueId)
       res.render('games/index', {
-        games
+        venue: venue
       })
     })
 })
+
+module.exports = router;

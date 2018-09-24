@@ -2,6 +2,8 @@ body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: yellow;
+  text-align: center;
+}
 
 a {
   color: #FF0000;

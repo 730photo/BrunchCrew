@@ -1,9 +1,9 @@
-<h1>List Games</h1>
+<h1>List Games for {{venue.name}}</h1>
 
 <div>
-  {{#each games}}
-  <div>Name: {{this.name}}</div>
-  <div>Speaker: {{this.dtsa}}</div>
+  {{#each venue.games}}
+  <div>Game: {{this.list}}</div>
+  <div>Speaker: {{this.speaker}}</div>
 
   {{/each}}
 </div>

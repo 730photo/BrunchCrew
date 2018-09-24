@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     .then((user) => {
       const venues = user.venues
       res.render('venues/index', {
-        venues
+        venues, user
       })
     })
 })
