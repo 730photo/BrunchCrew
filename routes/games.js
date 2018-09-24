@@ -4,3 +4,14 @@ var router = express.Router({
 });
 const { Games } = require('../db/schema')
 
+
+// INDEX, SHOW ALL
+router.get('/', (req, res) => {
+  User.findById(req.params.userId)
+    .then((user) => {
+      const games = user.venues
+      res.render('games/index', {
+        games
+      })
+    })
+})
