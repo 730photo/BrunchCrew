@@ -1,12 +1,10 @@
-<h1>New Venue</h1>
+<h1>New User</h1>
 
-<div>Name: {{this.name}}</div>
-<div>City: {{this.city}}</div>
-<div>dtsa: {{this.dtsa}}</div>
-
-<form action='/users/{{user.id}}?_method=' method='POST'>
-    <input type='submit' value='Delete User'>
+<form action='/users' method='POST'>
+  <div>Name: <input type='text' name='name'></div>
+  <div>Age: <input type='text' name='age'></div>
+  <div>City: <input type='text' name='city'></div>
+  <div>Team: <input type='text' name='team'></div>
+  
+  <div><input type='submit' value='Create New User'></div>
 </form>
-
-
-<a href='/users'/{{user.id}}>Add venue</a>
