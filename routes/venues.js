@@ -9,7 +9,7 @@ router.get('/', (req, res) => {
   User.findById(req.params.userId)
     .then((user) => {
       const venues = user.venues
-      res.render('venues/{{user.id}}/index', {
+      res.render('venues/index', {
         venues
       })
     })

@@ -3,3 +3,4 @@ var router = express.Router({
   mergeParams: true
 });
 const { Games } = require('../db/schema')
+

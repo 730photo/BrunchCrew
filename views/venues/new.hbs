@@ -1,0 +1,12 @@
+<h1>New Venue</h1>
+
+<div>Name: {{this.name}}</div>
+<div>City: {{this.city}}</div>
+<div>dtsa: {{this.dtsa}}</div>
+
+<form action='/users/{{user.id}}?_method=' method='POST'>
+    <input type='submit' value='Delete User'>
+</form>
+
+
+<a href='/users'/{{user.id}}>Add venue</a>

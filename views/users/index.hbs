@@ -2,18 +2,17 @@
 
 <div>
   {{#each users}}
-  <div>Name: {{this.name}} <a href='/venues/{{this.id}}/index'>fav. venue</a></div>
+  <div>Name: {{this.name}} <a href='users/{{this._id}}/venues'>fav. venues</a></div>
   <div>Age: {{this.age}}</div>
   <div>City: {{this.city}}</div>
   <div>Team: {{this.team}}</div>
 
-<div><a href='/edit'>Edit</a></div>
+<div><a href='/users/new'>Add</a></div>
 
-<div><a href='/users/new'>( + user )</a></div>
-<form action='/users/new?_method=EDIT' method='POST'>
+
+<form action='/users/new?_method=ADD' method='POST'>
     <input type='submit' value='Add User'>
 </form>
-<div><a href='delete/users/'>Delete</a></div>
 
 <form action='/users/{{this._id}}?_method=EDIT' method='POST'>
     <input type='submit' value='Edit User'>
