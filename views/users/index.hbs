@@ -7,8 +7,21 @@
   <div>City: {{this.city}}</div>
   <div>Team: {{this.team}}</div>
 
-  <div><a href='/users/new'>( + user )</a></div>
-  <input type='submit' value='Delete'>
+<div><a href='/edit'>Edit</a></div>
+
+<div><a href='/users/new'>( + user )</a></div>
+<form action='/users/new?_method=EDIT' method='POST'>
+    <input type='submit' value='Add User'>
+</form>
+<div><a href='delete/users/'>Delete</a></div>
+
+<form action='/users/{{this._id}}?_method=EDIT' method='POST'>
+    <input type='submit' value='Edit User'>
+</form>
+
+<form action='/users/{{this._id}}?_method=DELETE' method='POST'>
+    <input type='submit' value='Delete User'>
+</form>
 
   {{/each}}
 </div>

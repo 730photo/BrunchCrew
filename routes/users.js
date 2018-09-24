@@ -53,7 +53,7 @@ router.put('/:id', (req, res) => {
   })
 
   // DELETE
-router.delete('/delete/:id', (req, res) => {
+  router.delete('/:id', (req, res) => {
     User.findByIdAndRemove(req.params.id)
       .then(() => {
         res.redirect('/users')
