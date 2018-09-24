@@ -5,10 +5,11 @@
 <div>City: {{user.city}}</div>
 <div>Team: {{user.team}}</div>
 
-<form action='/users/{{user.id}}?_method=' method='POST'>
-    
+<form action="/delete/{{user.id}}" method="POST">
+    <input type='submit' value='Delete User'>
 </form>
 
 
 <a href='/users'/{{user.id}}>Back to list</a>
 <a href='/users/{{user.id}}/edit'>Edit</a>
+

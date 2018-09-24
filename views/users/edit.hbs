@@ -1,9 +1,9 @@
 <h1>Edit User</h1>
 
 <form action='/users/{{user._id}}?_method=PUT' method='POST'>
-  <div>Name: <input type='text' name='username' value='{{user.username}}'></div>
-  <div>Age: <input type='text' name='age'></div>
-  <div>City: <input type='text' name='city'></div>
-  <div>Team: <input type='text' name='team'></div>
+  <div>Name: <input type='text' name='name' value='{{user.name}}'></div>
+  <div>Age: <input type='text' name='age' value='{{user.age}}'></div>
+  <div>City: <input type='text' name='city' value='{{user.city}}'></div>
+  <div>Team: <input type='text' name='team' value='{{user.team}}'></div>
   <div><input type='submit' value='Update User'></div>
 </form>
