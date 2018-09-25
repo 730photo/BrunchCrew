@@ -29,9 +29,10 @@ Technologies Used:
 </ul>
 </h4>
 
-
+<h5>
 Future Development:
 
 Make it possible to add a new venue.
 Add better styling so somebody would actually want to use it.
 Make the code more efficient.
+</h5>
