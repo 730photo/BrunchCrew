@@ -1,4 +1,4 @@
-# FanFinder
+<h3># FanFinder
 
 For project #1, I created a simple Fan Finder app. 
 
@@ -37,3 +37,4 @@ Future Development:
 Make it possible to add a new venue.
 Add better styling so somebody would actually want to use it.
 Make the code more efficient.
+</h3>
