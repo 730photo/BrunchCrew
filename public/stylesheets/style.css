@@ -9,3 +9,12 @@ body {
 a {
   color: rgba(1, 9, 116, 0.993);
 }
+
+form {
+  background: rgba(1, 9, 116, 0.983);
+  color: white;
+}
+
+h1 {
+  background: rgba(1, 9, 116, 0.983);
+}
