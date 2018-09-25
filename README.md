@@ -13,7 +13,7 @@ For project #1, I created a simple Fan Finder app.
 -When you click on the [DELETE] button under the user name, the user is deleted.
 -When you click on the Add link under the user name, you will be taken to a form where you can create a new user.
 -When you click on the [EDIT] button, you will be taken to a form where you can edit a users information.
-
+</h3>
 
 
 Technologies Used:
@@ -35,4 +35,3 @@ Future Development:
 Make it possible to add a new venue.
 Add better styling so somebody would actually want to use it.
 Make the code more efficient.
-</h3>
