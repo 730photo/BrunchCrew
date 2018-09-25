@@ -39,6 +39,6 @@ Future Development:
 </h5>
 
 
-<a herf="FanFinder/IMG_0195.jpg"></a>
+FanFinder/IMG_0195.jpg
 
-<a href="FanFinder/IMG_0197.jpg"></a>
+FanFinder/IMG_0197.jpg
