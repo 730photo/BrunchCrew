@@ -34,6 +34,6 @@ Future Development:
 <ul>
 <li>Make it possible to add a new venue.</li>
 <li>Add better styling so somebody would actually want to use it.</li>
-Make the code more efficient.
+<li>Make the code more efficient.</li>
 </ul>
 </h5>
