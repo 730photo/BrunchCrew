@@ -12,7 +12,8 @@ router.get('/', (req, res) => {
     .then((user) => {
       const venue = user.venues.id(req.params.venueId)
       res.render('games/index', {
-        venue: venue
+        venue: venue,
+        user
       })
     })
 })
