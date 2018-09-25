@@ -1,4 +1,4 @@
-<h3># FanFinder
+<h3># FanFinder<br>
 
 For project #1, I created a simple Fan Finder app. 
 
