@@ -14,21 +14,19 @@ For project #1, I created a simple Fan Finder app.
 -When you click on the Add link under the user name, you will be taken to a form where you can create a new user.
 -When you click on the [EDIT] button, you will be taken to a form where you can edit a users information.
 
--if you decide to not answer a question once you click the rectangle, you lose points based on which rectangle you clicked on.
 
--when the game is over, you click the "FINISHED" button at the bottom of the page and whoever has the highest score wins. The "Finished" button also resets the game.
 
 Technologies Used:
 
-HTML
-CSS
-JavaScript
-Handlebars
-Express
-MongoDB
-Mongoose
-
-Features:
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Handlebars</li>
+<li>Express</li>
+<li>MongoDB</li>
+<li>Mongoose</li>
+</ul>
 
 
 
