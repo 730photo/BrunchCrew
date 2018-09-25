@@ -11,7 +11,6 @@ a {
 }
 
 form {
-  background: rgba(1, 9, 116, 0.983);
   color: white;
 }
 
@@ -19,6 +18,3 @@ h1 {
   background: rgba(1, 9, 116, 0.983);
 }
 
-div {
-  font-size: 25px;
-}

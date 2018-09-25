@@ -1,11 +1,7 @@
-<h1>New User</h1>
+<h1>New Venue</h1>
 
-<form action='users' method='POST'>
-  <div>Name: <input type='text' name='name'></div>
-  <div>Age: <input type='text' name='age'></div>
-  <div>City: <input type='text' name='city'></div>
-  <div>Team: <input type='text' name='team'></div>
+<form action='/users/{{userId}}/venues' method='POST'>
   <div>Venue: <input type='text' name='venue'></div>
   
-  <div><input type='submit' value='Create New User'></div>
+  <div><input type='submit' value='Create New Venue'></div>
 </form>

@@ -2,7 +2,7 @@ var express = require('express');
 var router = express.Router({
   mergeParams: true
 });
-const { User } = require('../db/schema')
+const { User, Venues } = require('../db/schema')
 
 // INDEX, SHOW ALL
 router.get('/', (req, res) => {
@@ -17,7 +17,9 @@ router.get('/', (req, res) => {
 
 // NEW, RENDER NEW FORM
 router.get('/new', (req, res) => {
-  res.render('venues/new')
+  res.render('venues/new', { 
+  userId: req.params.userId
+})
 })
 
 
@@ -43,9 +45,9 @@ router.get('/:id/edit', (req, res) => {
 
 // CREATE
 router.post('/', (req, res) => {
-  // const newUser = new User(req.body)
-  // newUser.save()
-  User.create(req.body)
+  console.log(req.params)
+  const newVenues = new Venues(req.body)
+  User.findById(req.params.userId)
     .then((user) => {
       res.redirect(`/venues/${venue._id}`)
     })

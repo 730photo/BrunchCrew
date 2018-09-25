@@ -9,8 +9,9 @@
 
 <div><a href='/users/new'>Add</a></div>
 
-<form action='/users/{{this._id}}/edit' method='POST'>
+<form action='/users/{{user._id}}' method='POST'>
     <input type='submit' value='Edit User'>
+  
 </form>
 
 <form action='/users/{{this._id}}?_method=DELETE' method='POST'>
