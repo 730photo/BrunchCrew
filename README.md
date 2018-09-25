@@ -39,4 +39,6 @@ Future Development:
 </h5>
 
 
-https://github.com/730photo/FanFinder/blob/master/IMG_0195.jpg
+<a herf="https://github.com/730photo/FanFinder/blob/master/IMG_0195.jpg"></a>
+
+<a href="https://github.com/730photo/FanFinder/blob/master/IMG_0197.jpg"></a>
