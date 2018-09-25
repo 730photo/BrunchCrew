@@ -31,8 +31,9 @@ Technologies Used:
 
 <h5>
 Future Development:
-
-Make it possible to add a new venue.
-Add better styling so somebody would actually want to use it.
+<ul>
+<li>Make it possible to add a new venue.</li>
+<li>Add better styling so somebody would actually want to use it.</li>
 Make the code more efficient.
+</ul>
 </h5>
