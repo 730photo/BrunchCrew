@@ -15,7 +15,7 @@ For project #1, I created a simple Fan Finder app.
 -When you click on the [EDIT] button, you will be taken to a form where you can edit a users information.
 </h3>
 
-
+<h4>
 Technologies Used:
 
 <ul>
@@ -27,7 +27,7 @@ Technologies Used:
 <li>MongoDB</li>
 <li>Mongoose</li>
 </ul>
-
+</h4>
 
 
 Future Development:
